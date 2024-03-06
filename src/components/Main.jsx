@@ -1,5 +1,4 @@
-import { TypeAnimation } from "react-type-animation";
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import douglasImg from "../assets/douglas.jpg";
 
 const Main = () => {
@@ -34,7 +33,9 @@ const Main = () => {
               className="cursor-pointer"
               size={20}
               onClick={() =>
-                handleLinkClick("https://www.linkedin.com/in/douglas-van-der-merwe-b4552467/")
+                handleLinkClick(
+                  "https://www.linkedin.com/in/douglas-van-der-merwe-b4552467/"
+                )
               }
             />
           </div>
