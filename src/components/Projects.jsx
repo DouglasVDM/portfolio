@@ -1,8 +1,8 @@
 import ProjectItem from "./ProjectItem";
-import propertyImg from "../assets/property.jpg";
-import cryptoImg from "../assets/crypto.jpg";
+import mechanicalinkImg from "../assets/mechanicalink.jpg";
+import redstorImg from "../assets/redstor.jpg";
 import twitchImg from "../assets/twitch.jpg";
-import netflixImg from "../assets/netflix.jpg";
+import freecodecampImg from "../assets/freecodecamp.jpg";
 
 const Projects = () => {
   return (
@@ -11,15 +11,12 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-        voluptas beatae perferendis inventore vero veritatis sapiente esse
-        doloremque itaque, porro dolorem. Libero mollitia vero laborum facilis
-        dignissimos quisquam. Omnis, sint.
+        My main focus is to add value. This is achieved by solving problems that may or may not have been identified. It comes in the form contributing to open source, adding chapters to YouTube videos, joining traininees on projects where help is needed. I'm constantly looking for opportunities to addvalue.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={cryptoImg} title="Crypto App" />
-        <ProjectItem img={netflixImg} title="Netflix App" />
-        <ProjectItem img={propertyImg} title="Property App" />
+        <ProjectItem img={redstorImg} title="Redstor" />
+        <ProjectItem img={freecodecampImg} title="FreeCodeCamp" />
+        <ProjectItem img={mechanicalinkImg} title="Mechanical Ink" />
         <ProjectItem img={twitchImg} title="Twitch App" />
       </div>
     </div>
