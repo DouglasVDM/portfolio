@@ -1,7 +1,6 @@
 import ProjectItem from "./ProjectItem";
-import mechanicalinkImg from "../assets/mechanicalink.jpg";
+import mayfieldImg from "../assets/mayfield-tennis-club.jpg";
 import redstorImg from "../assets/redstor.jpg";
-import twitchImg from "../assets/twitch.jpg";
 import freecodecampImg from "../assets/freecodecamp.jpg";
 
 const Projects = () => {
@@ -11,13 +10,27 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        My main focus is to add value. This is achieved by solving problems that may or may not have been identified. It comes in the form contributing to open source, adding chapters to YouTube videos, joining traininees on projects where help is needed. I'm constantly looking for opportunities to addvalue.
+        My main focus is to add value, achieved by solving problems that may or
+        may not have been identified. This involves contributing to open source,
+        adding chapters to YouTube videos, joining traininees on projects where
+        help is needed.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={redstorImg} title="Redstor" />
-        <ProjectItem img={freecodecampImg} title="FreeCodeCamp" />
-        <ProjectItem img={mechanicalinkImg} title="Mechanical Ink" />
-        <ProjectItem img={twitchImg} title="Twitch App" />
+        <ProjectItem
+          img={redstorImg}
+          title="Redstor"
+          projectInfo="Added timestamps to most recent YouTube video"
+        />
+        <ProjectItem
+          img={freecodecampImg}
+          title="FreeCodeCamp"
+          projectInfo="Added timestamps to YouTube videos and onboarded as contributor on the open source project "
+        />
+        <ProjectItem
+          img={mayfieldImg}
+          title="Mayfield Tennis Club"
+          projectInfo="Built a court booking app for the club. Minimum Viable Product almost ready for user testing"
+        />
       </div>
     </div>
   );
