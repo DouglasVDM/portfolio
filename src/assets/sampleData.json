@@ -2,29 +2,15 @@
   {
     "id": 1,
     "year": 2024,
-    "title": "Product Analyst",
-    "duration": "3 Years",
-    "details": "lorem ipsum, dolor sit"
+    "title": "Product Analyst at Sentian",
+    "duration": "2 Years",
+  "details": ["Since January 2022 to present, as a Product Analyst, my key performance areas are, but not limitet to: Agile Scrum Master, Inventory Management, QA Frontend, Backend, API, Hardware, etc."]
   },
   {
     "id": 2,
-    "year": 2024,
-    "title": "Product Analyst",
+    "year": 2022,
+    "title": "Site Installations Manager at Osterwald and Sons",
     "duration": "3 Years",
-    "details": "lorem ipsum, dolor sit"
-  },
-  {
-    "id": 3,
-    "year": 2024,
-    "title": "Product Analyst",
-    "duration": "3 Years",
-    "details": "lorem ipsum, dolor sit"
-  },
-  {
-    "id": 4,
-    "year": 2024,
-    "title": "Product Analyst",
-    "duration": "3 Years",
-    "details": "lorem ipsum, dolor sit"
+    "details": "Client liaison, Planning, Manufacturing and Installation of high-end joinery and furniture"
   }
 ]

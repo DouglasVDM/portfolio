@@ -1,8 +1,7 @@
 import ProjectItem from "./ProjectItem";
-import propertyImg from "../assets/property.jpg";
-import cryptoImg from "../assets/crypto.jpg";
-import twitchImg from "../assets/twitch.jpg";
-import netflixImg from "../assets/netflix.jpg";
+import mayfieldImg from "../assets/mayfield-tennis-club.jpg";
+import redstorImg from "../assets/redstor.jpg";
+import freecodecampImg from "../assets/freecodecamp.jpg";
 
 const Projects = () => {
   return (
@@ -11,16 +10,27 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-        voluptas beatae perferendis inventore vero veritatis sapiente esse
-        doloremque itaque, porro dolorem. Libero mollitia vero laborum facilis
-        dignissimos quisquam. Omnis, sint.
+        My main focus is to add value. Achieved by solving problems that may or
+        may not have been identified. This involves contributing to open source projects,
+        adding chapters to YouTube videos, joining traininees on projects where
+        help is needed, etc.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={cryptoImg} title="Crypto App" />
-        <ProjectItem img={netflixImg} title="Netflix App" />
-        <ProjectItem img={propertyImg} title="Property App" />
-        <ProjectItem img={twitchImg} title="Twitch App" />
+        <ProjectItem
+          img={redstorImg}
+          title="Redstor"
+          projectInfo="Added timestamps to most recent YouTube video"
+        />
+        <ProjectItem
+          img={freecodecampImg}
+          title="FreeCodeCamp"
+          projectInfo="Onboarded as contributor on their open source project and Added timestamps to YouTube videos"
+        />
+        <ProjectItem
+          img={mayfieldImg}
+          title="Mayfield Tennis Club"
+          projectInfo="Built a court booking app for the club. Minimum Viable Product almost ready for user testing"
+        />
       </div>
     </div>
   );
