@@ -13,7 +13,7 @@ const Projects = () => {
         My main focus is to add value, achieved by solving problems that may or
         may not have been identified. This involves contributing to open source,
         adding chapters to YouTube videos, joining traininees on projects where
-        help is needed.
+        help is needed, etc.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
