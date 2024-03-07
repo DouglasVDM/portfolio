@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover object-left scale-x-[-1]"
+        className="w-full h-screen object-cover object-left scale-x-[-1] "
         src={douglasImg}
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
@@ -17,7 +17,7 @@ const Main = () => {
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             Douglas Van Der Merwe
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
+          <h2 className="flex sm:text-3xl text-2xl pt-4 ml-4 text-gray-800">
             I am the one who takes on the tasks that everyone avoids and gets them done.
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full" >
