@@ -10,8 +10,8 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        My main focus is to add value, achieved by solving problems that may or
-        may not have been identified. This involves contributing to open source,
+        My main focus is to add value. Achieved by solving problems that may or
+        may not have been identified. This involves contributing to open source projects,
         adding chapters to YouTube videos, joining traininees on projects where
         help is needed, etc.
       </p>
