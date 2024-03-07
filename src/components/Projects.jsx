@@ -24,7 +24,7 @@ const Projects = () => {
         <ProjectItem
           img={freecodecampImg}
           title="FreeCodeCamp"
-          projectInfo="Added timestamps to YouTube videos and onboarded as contributor on the open source project "
+          projectInfo="Onboarded as contributor on their open source project and Added timestamps to YouTube videos"
         />
         <ProjectItem
           img={mayfieldImg}
