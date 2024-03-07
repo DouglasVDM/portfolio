@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 const ProjectItem = ({ img, title }) => {
+=======
+const ProjectItem = ({ img, title, projectInfo }) => {
+>>>>>>> Stashed changes
   return (
     <div className="relative flex item-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
       <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
